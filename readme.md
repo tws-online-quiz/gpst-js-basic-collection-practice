@@ -4,13 +4,13 @@
 - 2.单个集合内各种元素统计 - 其中包含3个小练习
 - 3.两个集合比较+筛选+统计 - 其中包含4个小练习
 
-### 说明：以上三个大的主题练习需求，在代码库的spec（c测试目录）下的section-1, section-2, section-3中的测试代码中有文字说明。对应的代码实现在main目录下，例如：
+### 说明：以上三个大的主题练习需求，在代码库的spec（c测试目录）下的section-1, section-2, section-3中的测试代码中有文字说明。对应的代码实现在main目录下，例如：
 ```
-spec/section-1/practice-1-spec.js 
+spec/section-1/practice-1-spec.js
 ```
 中的测试实现需要写在以下文件中 
 ```
-main/section-1/practice-1.js 
+main/section-1/practice-1.js
 ```
 
 ## 参考资料
