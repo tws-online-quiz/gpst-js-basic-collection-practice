@@ -1,0 +1,23 @@
+{
+  "name": "gpst-js-basic-collection-practice",
+  "version": "1.0.0",
+  "description": "Powered by ThoughtWorks School",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node run-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tws-stack/gpst-js-basic-collection-practice.git"
+  },
+  "author": "ThoughtWorks School",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tws-stack/gpst-js-basic-collection-practice/issues"
+  },
+  "homepage": "https://school.thoughtworks.cn",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
