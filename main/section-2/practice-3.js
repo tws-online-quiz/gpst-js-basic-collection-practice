@@ -24,6 +24,11 @@ function countElements(collection) {
     return result
 }
 
+function pushStrsToCollection(addNum, filterCollection, element) {
+    for (let i = 0; i < parseInt(addNum); i++) {
+        filterCollection.push(element)
+    }
+}
 function handleSpecialElement(str, filterCollection) {
     let addNum
     let element = str[0]
@@ -34,9 +39,7 @@ function handleSpecialElement(str, filterCollection) {
         let endIndex = str.indexOf(']');
         addNum = parseInt(str.substring(startIndex + 1, endIndex))
     }
-    for (let i = 0; i < parseInt(addNum); i++) {
-        filterCollection.push(element)
-    }
+    pushStrsToCollection(addNum, filterCollection, element);
 }
 
 function transformOriginCollection(collection) {
