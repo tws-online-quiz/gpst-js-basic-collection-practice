@@ -1,5 +1,16 @@
 'use strict';
 
 module.exports = function collectSameElements(collectionA, collectionB) {
-  return '实现练习要求，并改写该行代码。';
+    let newArr = []
+    for (let strOfA of collectionA) {
+        for (let arrOfB of collectionB) {
+            for (let strOfB of arrOfB) {
+                if (strOfA === strOfB) {
+                    newArr.push(strOfA)
+                    break
+                }
+            }
+        }
+    }
+    return newArr;
 }
