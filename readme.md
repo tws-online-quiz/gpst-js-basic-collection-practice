@@ -37,7 +37,7 @@ git clone repo_of_this_template
 ```
 首先初次下载完需要安装依赖：
 ```
- npm install
+npm install
 ```
 运行所有测试：
 ```
