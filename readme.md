@@ -54,7 +54,7 @@ src   //源文件
 ```
 完成函数通过测试后，使用以下命令设置github远程仓库地址 (my_url代表你自己的新的github地址)
 ```
- git remote set-url origin my_url
+git remote set-url origin my_url
 ```
 ## 学习资源
 1. [JavaScript基础](http://codefordream.com/courses/js_basic/sections)
